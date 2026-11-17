@@ -1,4 +1,4 @@
-# Bash Snake
+# Snake (Bash)
 
 [![GitHub release](https://img.shields.io/github/v/release/Mohim71/Snake-Bash)](https://github.com/Mohim71/bash-snake/releases)
 [![License](https://img.shields.io/github/license/Mohim71/Snake-Bash)](LICENSE)
@@ -20,9 +20,9 @@ No external libraries required — just your shell!
 ---
 
 ## ⌨️ Controls
-- `W` → Up  
+- `Z` → Up  
 - `S` → Down  
-- `A` → Left  
+- `Q` → Left  
 - `D` → Right  
 - `Ctrl+C` → Quit anytime
 
@@ -32,7 +32,7 @@ No external libraries required — just your shell!
 
 ### Linux / macOS
 ```bash
-git clone https://github.com/Mohim71/bash-snake.git
-cd bash-snake
+git clone https://github.com/Nabakator/snake-bash
+cd snake-bash
 chmod +x snake.sh
 ./snake.sh
