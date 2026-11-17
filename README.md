@@ -5,12 +5,11 @@
 [![Made with Bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/)
 
 A simple **terminal Snake game** written entirely in **Bash**.  
-No external libraries required — just your shell!
+No external libraries required, just your shell!
 
 ---
 
 ## 🎮 Features
-- WASD controls (`W`, `A`, `S`, `D`) for movement
 - Food spawns randomly, snake grows & score increases
 - Wrap-around edges
 - Collision with yourself ends the game
