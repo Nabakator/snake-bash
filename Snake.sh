@@ -80,12 +80,12 @@ move_snake() {
 
     case $snake_dir in
         d) ((new_y++)) ;;
-        a) ((new_y--)) ;;
-        w) ((new_x--)) ;;
+        q) ((new_y--)) ;;
+        z) ((new_x--)) ;;
         s) ((new_x++)) ;;
         D) ((new_y++)) ;;
-        A) ((new_y--)) ;;
-        W) ((new_x--)) ;;
+        Q) ((new_y--)) ;;
+        Z) ((new_x--)) ;;
         S) ((new_x++)) ;;
     esac
 
@@ -156,4 +156,4 @@ while true; do
     handle_game_over
 done
 
-echo "Game Over! Final Score: $score
+echo "Game over! Final score: $score
