@@ -11,8 +11,7 @@ No external libraries required, just your shell!
 
 ## 🎮 Features
 - Food spawns randomly, snake grows & score increases
-- Wrap-around edges
-- Collision with yourself ends the game
+- Hitting a wall or yourself ends the game
 - Restart or quit when game over
 - Border rendering for a retro feel
 
@@ -33,5 +32,5 @@ No external libraries required, just your shell!
 ```bash
 git clone https://github.com/Nabakator/snake-bash
 cd snake-bash
-chmod +x snake.sh
-./snake.sh
+chmod +x Snake.sh
+./Snake.sh
